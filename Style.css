@@ -1,0 +1,120 @@
+.nav-item{
+  font-family: 'Righteous', cursive;
+  font-size:18px;
+}
+#home{
+  width:75%;
+  height:50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#about{
+  display:flex;
+  flex-direction: row;
+  
+}
+#about_img{
+  margin-left:10%;
+  /* margin-top: 9%; */
+}
+#about_content{
+  margin:3%;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  font-size:20px;
+  /* margin: 2%; */
+}
+#clg>span{
+  font-size:20px;
+  font-weight:900;
+}
+#about_header{
+  /* font-family: 'Righteous', cursive; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:35px;
+}
+#event_head{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:35px;
+  text-align:center;
+}
+#tech_head{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:left;
+}
+#technical_contents{
+  display: flex;
+  flex-direction: row;
+  
+}
+#nontech_head{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:left;
+}
+#nontechnical_contents{
+  display: flex;
+  flex-direction: row;
+  
+}
+.card-title{
+  font-family: 'EB Garamond', serif;
+}
+#mob_title{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:center;
+}
+#cult_title{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:center;
+}
+#video{
+  text-align:center;
+}
+#org_title{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:center;
+}
+#contact_title{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight:700;
+  font-size:30px;
+  text-align:center;
+}
+@media only screen and (max-width: 600px) {
+  #about{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  #technical_contents{
+    display:flex;
+    flex-direction: column;
+    margin-top:2rem;
+
+  }
+  #nontechnical_contents{
+    display:flex;
+    flex-direction: column;
+    margin-top:2rem;
+
+  }
+  .card{
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+}
